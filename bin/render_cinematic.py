@@ -71,8 +71,10 @@ def render_cinematic_shorts(image_path, audio_path, output_path,
     gradient_png = grad_dir / "gradient_full.png"
     create_gradient_overlay(gradient_png, width, height)
 
-    # Ken Burns zoom
+    # Ken Burns zoom — fix aspect ratio for landscape→portrait
     zoompan = (
+        f"scale=w={width}:h={height}:force_original_aspect_ratio=increase,"
+        f"crop={width}:{height},"
         f"zoompan=z='min(1+0.15*on/{total_frames},1.15)':"
         f"d={total_frames}:"
         f"x='iw/2-(iw/zoom/2)':"
