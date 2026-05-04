@@ -5,6 +5,7 @@ Fetches background images from NASA APOD or other space image sources.
 """
 
 import json
+import random
 import urllib.request
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -84,18 +85,25 @@ def download_image(url: str, output_path: Path) -> bool:
 
 def fetch_image(date: Optional[str] = None,
                 cache_dir: Optional[Path] = None,
-                max_age_days: int = 7) -> Optional[tuple[Path, dict]]:
+                max_age_days: int = 7,
+                prefer_random: bool = False) -> Optional[tuple[Path, dict]]:
     """
     Fetch a space background image and return (image_path, metadata).
     
     Falls back to recent images if today's APOD is not available.
+    If prefer_random=True and multiple cached images exist, picks a random one.
     """
     if cache_dir is None:
         cache_dir = Path(__file__).parent.parent / "data" / "images"
     cache_dir.mkdir(parents=True, exist_ok=True)
 
     # Try to fetch APOD
-    apod = fetch_apod(date)
+    if date is None:
+        # If no specific date, try today first
+        apod = fetch_apod("today")
+    else:
+        apod = fetch_apod(date)
+    
     if apod and apod.get("media_type") == "image":
         img_url = apod.get("hdurl") or apod.get("url")
         date_str = apod.get("date", datetime.now().strftime("%Y-%m-%d"))
@@ -114,6 +122,7 @@ def fetch_image(date: Optional[str] = None,
 
     # Fallback: try last N days
     print(f"  ⚠ Trying recent APOD images...")
+    candidates = []
     for days_ago in range(1, max_age_days + 1):
         past_date = (datetime.now() - timedelta(days=days_ago)).strftime("%Y-%m-%d")
         apod = fetch_apod(past_date)
@@ -125,13 +134,27 @@ def fetch_image(date: Optional[str] = None,
             img_path = cache_dir / f"apod_{past_date}.{ext}"
             if not img_path.exists():
                 if download_image(img_url, img_path):
-                    return img_path, apod
+                    candidates.append((img_path, apod))
             else:
-                print(f"  ✓ Cached: {img_path.name}")
-                return img_path, apod
+                candidates.append((img_path, apod))
     
-    print(f"  ✗ No APOD image available")
-    return None
+    if not candidates:
+        # Last resort: pick any cached image
+        cached = sorted(cache_dir.glob("*.jp*g")) + sorted(cache_dir.glob("*.png"))
+        if cached:
+            print(f"  ⚠ Using random cached image")
+            return cached[-1], {"title": cached[-1].stem, "date": cached[-1].stem.replace("apod_", "")}
+        print(f"  ✗ No APOD image available")
+        return None
+    
+    # If prefer_random and we have multiple candidates, pick a random one
+    if prefer_random and len(candidates) > 1:
+        chosen = random.choice(candidates)
+    else:
+        chosen = candidates[0]  # Most recent
+    
+    print(f"  ✓ {chosen[1].get('title', '')} ({chosen[1].get('date', '')})")
+    return chosen
 
 
 def main():

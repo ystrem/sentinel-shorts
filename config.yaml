@@ -32,7 +32,7 @@ text:
 
 music:
   enabled: true
-  volume: 0.15                    # Quiet ambient
+  volume: 1.0                     # Already normalized in generate_music.sh
   fade_in: 1.5
   fade_out: 2.0
   directory: ./data/music

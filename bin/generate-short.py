@@ -60,7 +60,7 @@ def generate_short(date: Optional[str] = None,
         print(f"\n📸 Step 1: Fetching background image...")
     
     cache_dir = REPO_DIR / "data" / "images"
-    result = fetch_image(date, cache_dir)
+    result = fetch_image(date, cache_dir, prefer_random=True)
     
     if not result:
         print(f"  ❌ Failed to get background image")
