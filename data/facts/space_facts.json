@@ -1,0 +1,322 @@
+[
+  {
+    "id": "carrington-event",
+    "title": "Carrington Event",
+    "year": "1859",
+    "subtitle": "Northern lights visible from Cuba",
+    "fact": "In 1859, during the Carrington Event, the Northern Lights were so bright that people in Cuba could read newspapers at midnight.",
+    "category": "solar-storms",
+    "tags": ["sun", "solar flare", "history", "aurora"],
+    "source": "NASA"
+  },
+  {
+    "id": "saturn-moons",
+    "title": "Which Planet Has the Most Moons?",
+    "year": "2024",
+    "subtitle": "Saturn — 146 confirmed moons",
+    "fact": "Saturn has 146 confirmed moons — more than any other planet in the Solar System. Jupiter is second with 95.",
+    "category": "planets",
+    "tags": ["saturn", "moons", "solar system"],
+    "source": "NASA Solar System Exploration"
+  },
+  {
+    "id": "venus-day",
+    "title": "A Day on Venus",
+    "year": "",
+    "subtitle": "Longer than a year",
+    "fact": "A day on Venus (243 Earth days) is longer than its year (225 Earth days). It also rotates backwards.",
+    "category": "planets",
+    "tags": ["venus", "rotation", "solar system"],
+    "source": "NASA"
+  },
+  {
+    "id": "footprints-moon",
+    "title": "Footprints on the Moon",
+    "year": "1969",
+    "subtitle": "They'll last millions of years",
+    "fact": "The footprints left by Apollo astronauts on the Moon will remain for at least 10 million years — there's no wind or water to erase them.",
+    "category": "history",
+    "tags": ["apollo", "moon", "nasa"],
+    "source": "NASA"
+  },
+  {
+    "id": "sun-size",
+    "title": "The Sun is Huge",
+    "year": "",
+    "subtitle": "1.3 million Earths fit inside",
+    "fact": "About 1.3 million Earths could fit inside the Sun. Yet it's just an average-sized star.",
+    "category": "sun",
+    "tags": ["sun", "size", "comparison"],
+    "source": "NASA"
+  },
+  {
+    "id": "mars-sunset",
+    "title": "Sunsets on Mars",
+    "year": "",
+    "subtitle": "They're blue, not red",
+    "fact": "On Mars, sunsets appear blue. The planet's thin, dusty atmosphere scatters light differently than on Earth.",
+    "category": "planets",
+    "tags": ["mars", "sunset", "atmosphere"],
+    "source": "NASA"
+  },
+  {
+    "id": "space-silence",
+    "title": "No One Can Hear You",
+    "year": "",
+    "subtitle": "Space has no sound",
+    "fact": "In space, no one can hear you scream. Sound waves need a medium to travel through — and space is a vacuum.",
+    "category": "astronomy",
+    "tags": ["space", "sound", "physics"],
+    "source": "NASA"
+  },
+  {
+    "id": "jupiter-red-spot",
+    "title": "Jupiter's Great Red Spot",
+    "year": "1665",
+    "subtitle": "A storm bigger than Earth",
+    "fact": "Jupiter's Great Red Spot is a storm larger than Earth that has been raging for at least 350 years.",
+    "category": "planets",
+    "tags": ["jupiter", "storm", "solar system"],
+    "source": "NASA"
+  },
+  {
+    "id": "neutron-star-density",
+    "title": "Neutron Stars",
+    "year": "",
+    "subtitle": "A sugar cube weighs billions of tons",
+    "fact": "A single teaspoon of neutron star material would weigh about 10 million tons — as much as a mountain.",
+    "category": "stars",
+    "tags": ["neutron star", "density", "astronomy"],
+    "source": "NASA"
+  },
+  {
+    "id": "gold-from-space",
+    "title": "Gold Comes From Space",
+    "year": "",
+    "subtitle": "Forged in neutron star collisions",
+    "fact": "The gold on Earth was formed in neutron star collisions billions of years ago. We are literally wearing stardust.",
+    "category": "astronomy",
+    "tags": ["gold", "neutron star", "elements", "nucleosynthesis"],
+    "source": "NASA"
+  },
+  {
+    "id": "milky-way-black-hole",
+    "title": "Sagittarius A*",
+    "year": "2022",
+    "subtitle": "4 million solar masses",
+    "fact": "At the center of our Milky Way galaxy lies Sagittarius A*, a supermassive black hole with the mass of 4 million Suns.",
+    "category": "black-holes",
+    "tags": ["black hole", "milky way", "galaxy"],
+    "source": "NASA"
+  },
+  {
+    "id": "pluto-heart",
+    "title": "Pluto Has a Heart",
+    "year": "2015",
+    "subtitle": "A giant glacier in the shape of a heart",
+    "fact": "Pluto has a heart-shaped glacier called Tombaugh Regio, discovered by New Horizons in 2015. It's made of nitrogen ice.",
+    "category": "dwarf-planets",
+    "tags": ["pluto", "new horizons", "dwarf planet"],
+    "source": "NASA"
+  },
+  {
+    "id": "iss-speed",
+    "title": "International Space Station",
+    "year": "",
+    "subtitle": "Travels at 28,000 km/h",
+    "fact": "The ISS orbits Earth at 28,000 km/h — fast enough to see a sunrise every 90 minutes. It completes 16 orbits per day.",
+    "category": "spacecraft",
+    "tags": ["iss", "orbit", "speed"],
+    "source": "NASA"
+  },
+  {
+    "id": "hubble-deep-field",
+    "title": "Hubble Deep Field",
+    "year": "1995",
+    "subtitle": "10,000 galaxies in a tiny speck",
+    "fact": "The Hubble Deep Field captured 10,000 galaxies in a patch of sky so small it would take 100 grains of sand to cover it.",
+    "category": "astronomy",
+    "tags": ["hubble", "galaxies", "deep field", "cosmos"],
+    "source": "NASA"
+  },
+  {
+    "id": "voyager-golden-record",
+    "title": "Voyager's Golden Record",
+    "year": "1977",
+    "subtitle": "Earth's message to the cosmos",
+    "fact": "Voyager 1 and 2 carry Golden Records — phonograph records with sounds and images of Earth, in case aliens find them.",
+    "category": "spacecraft",
+    "tags": ["voyager", "golden record", "interstellar"],
+    "source": "NASA"
+  },
+  {
+    "id": "speed-of-light",
+    "title": "The Speed of Light",
+    "year": "",
+    "subtitle": "It takes 8 minutes from the Sun",
+    "fact": "Light from the Sun takes 8 minutes and 20 seconds to reach Earth. The nearest star, Proxima Centauri, is 4.2 light-years away.",
+    "category": "astronomy",
+    "tags": ["light", "speed", "sun"],
+    "source": "NASA"
+  },
+  {
+    "id": "space-urine-recycling",
+    "title": "Recycled Water in Space",
+    "year": "",
+    "subtitle": "Astronauts drink recycled urine",
+    "fact": "The ISS recycles 93% of all water — including urine and sweat. Astronauts drink water that was someone else's yesterday.",
+    "category": "spacecraft",
+    "tags": ["iss", "recycling", "water", "astronaut"],
+    "source": "NASA"
+  },
+  {
+    "id": "coldest-place-universe",
+    "title": "Coldest Place in the Universe",
+    "year": "",
+    "subtitle": "Boomerang Nebula: -272°C",
+    "fact": "The Boomerang Nebula is the coldest known place in the universe at -272°C — just 1 degree above absolute zero.",
+    "category": "astronomy",
+    "tags": ["nebula", "temperature", "cold"],
+    "source": "NASA"
+  },
+  {
+    "id": "most-water-solar-system",
+    "title": "Where Is Most Water?",
+    "year": "",
+    "subtitle": "Not on Earth",
+    "fact": "Europa, one of Jupiter's moons, is believed to have more liquid water than all of Earth's oceans combined.",
+    "category": "moons",
+    "tags": ["europa", "water", "oceans", "jupiter"],
+    "source": "NASA"
+  },
+  {
+    "id": "moon-moving-away",
+    "title": "The Moon Is Drifting Away",
+    "year": "",
+    "subtitle": "3.8 cm per year",
+    "fact": "The Moon is moving away from Earth at 3.8 centimeters per year. In 600 million years, total solar eclipses will be impossible.",
+    "category": "astronomy",
+    "tags": ["moon", "orbit", "eclipse"],
+    "source": "NASA"
+  },
+  {
+    "id": "first-star-map",
+    "title": "Oldest Star Map",
+    "year": "1600 BC",
+    "subtitle": "Nebra Sky Disk",
+    "fact": "The Nebra Sky Disk, dated to 1600 BC, is the oldest known depiction of the cosmos — a bronze disk with the Sun, Moon, and stars.",
+    "category": "history",
+    "tags": ["history", "archaeology", "astronomy"],
+    "source": "UNESCO"
+  },
+  {
+    "id": "big-bang-echo",
+    "title": "Echo of the Big Bang",
+    "year": "1965",
+    "subtitle": "Cosmic Microwave Background",
+    "fact": "The faint glow of the Big Bang, called the Cosmic Microwave Background, was discovered by accident in 1965 and fills all of space.",
+    "category": "cosmology",
+    "tags": ["big bang", "cmb", "cosmology"],
+    "source": "NASA"
+  },
+  {
+    "id": "most-expensive-material",
+    "title": "Most Expensive Material",
+    "year": "",
+    "subtitle": "Antimatter costs $62.5 trillion per gram",
+    "fact": "Antimatter is the most expensive substance in the universe — it costs about $62.5 trillion to produce one gram.",
+    "category": "physics",
+    "tags": ["antimatter", "physics", "cern"],
+    "source": "CERN"
+  },
+  {
+    "id": "loneliest-object",
+    "title": "Loneliest Object in the Universe",
+    "year": "",
+    "subtitle": "The Bootes Void",
+    "fact": "The Boötes Void is a spherical region of space 330 million light-years across that contains almost no galaxies at all.",
+    "category": "cosmology",
+    "tags": ["void", "galaxies", "universe", "structure"],
+    "source": "NASA"
+  },
+  {
+    "id": "heaviest-element-stars",
+    "title": "Stars Create Elements",
+    "year": "",
+    "subtitle": "We are made of star stuff",
+    "fact": "Every atom of carbon, oxygen, and iron in your body was formed inside a star and scattered across the universe by a supernova.",
+    "category": "astronomy",
+    "tags": ["nucleosynthesis", "stars", "elements", "carl sagan"],
+    "source": "NASA"
+  },
+  {
+    "id": "space-taller",
+    "title": "Astronauts Grow Taller",
+    "year": "",
+    "subtitle": "Up to 5 cm taller in space",
+    "fact": "Without gravity compressing the spine, astronauts can grow up to 5 cm taller during their stay on the ISS.",
+    "category": "spacecraft",
+    "tags": ["astronaut", "iss", "body", "microgravity"],
+    "source": "NASA"
+  },
+  {
+    "id": "void-in-solar-system",
+    "title": "Most of the Solar System is Empty",
+    "year": "",
+    "subtitle": "Vast emptiness between planets",
+    "fact": "If you shrunk the Sun to the size of a grain of salt, the Solar System would be the size of a city — almost completely empty.",
+    "category": "planets",
+    "tags": ["solar system", "scale", "empty"],
+    "source": "NASA"
+  },
+  {
+    "id": "neil-armstrong-quote",
+    "title": "One Small Step",
+    "year": "1969",
+    "subtitle": "First words on the Moon",
+    "fact": "Neil Armstrong's famous \"one small step\" quote was improvised. After landing he said: \"That's one small step for man, one giant leap for mankind.\"",
+    "category": "history",
+    "tags": ["apollo", "moon landing", "armstrong"],
+    "source": "NASA"
+  },
+  {
+    "id": "halley-comet",
+    "title": "Halley's Comet",
+    "year": "1986",
+    "subtitle": "Returns every 76 years",
+    "fact": "Halley's Comet visits the inner Solar System every 76 years. It will return in 2061 — Mark Twain was born and died during its visits.",
+    "category": "comets",
+    "tags": ["comet", "halley", "orbit"],
+    "source": "NASA"
+  },
+  {
+    "id": "most-volcanic-body",
+    "title": "Most Volcanic Place",
+    "year": "",
+    "subtitle": "Io — Jupiter's volcanic moon",
+    "fact": "Jupiter's moon Io is the most volcanically active body in the Solar System — it has over 400 active volcanoes erupting constantly.",
+    "category": "moons",
+    "tags": ["io", "volcano", "jupiter", "moon"],
+    "source": "NASA"
+  },
+  {
+    "id": "age-of-universe",
+    "title": "The Universe Is 13.8 Billion Years Old",
+    "year": "",
+    "subtitle": "Exactly measured by Planck",
+    "fact": "The universe is 13.8 billion years old. Light from the most distant galaxies has been traveling toward us for almost that long.",
+    "category": "cosmology",
+    "tags": ["universe", "age", "cosmology"],
+    "source": "ESA"
+  },
+  {
+    "id": "first-photo-from-space",
+    "title": "First Photo From Space",
+    "year": "1946",
+    "subtitle": "A V-2 rocket captured this",
+    "fact": "The first photograph of Earth from space was taken in 1946 by a camera mounted on a captured German V-2 rocket at 105 km altitude.",
+    "category": "history",
+    "tags": ["history", "photography", "rocket", "earth"],
+    "source": "NASA"
+  }
+]

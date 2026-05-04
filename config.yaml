@@ -1,0 +1,50 @@
+# Sentinel Shorts — Configuration
+# Vertical short-form space videos (1080×1920)
+
+image:
+  source: apod                    # apod | nasa_image | local
+  cache_dir: ./data/images
+  resolution: 1080x1920           # Output resolution (vertical)
+
+video:
+  duration: 20                    # Seconds
+  fps: 30
+  resolution: "1080x1920"         # Vertical Shorts format
+  codec: h264
+  crf: 23
+  ken_burns:
+    enabled: true
+    zoom_start: 1.0
+    zoom_end: 1.15                # Gentle zoom for Shorts
+
+text:
+  title:
+    font_size: 48                 # Main title (centered)
+    font_color: "#FFFFFF"
+    shadow: true
+    shadow_color: "#000000"
+    y_position: "center"          # vertical center
+  subtitle:
+    font_size: 24
+    font_color: "#CCCCCC"
+    y_offset: 60                  # Below title
+  font: "Arial"                   # System font
+
+music:
+  enabled: true
+  volume: 0.15                    # Quiet ambient
+  fade_in: 1.5
+  fade_out: 2.0
+  directory: ./data/music
+
+delivery:
+  telegram:
+    enabled: false
+    chat_id: "362955491"
+  caption: "🌌 {fact_category}\n#Space #Shorts #Facts"
+
+ai:
+  provider: openai
+  model: qwen3.5-plus
+  base_url: "http://aicore:4000"
+  temperature: 0.7

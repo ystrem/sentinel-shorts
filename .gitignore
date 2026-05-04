@@ -1,0 +1,24 @@
+# Sentinel Shorts .gitignore
+
+# Output videos
+output/*.mp4
+output/*.webm
+
+# Cached images
+data/images/*.jpg
+data/images/*.jpeg
+data/images/*.png
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
